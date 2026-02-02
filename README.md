@@ -36,7 +36,7 @@ conda env create -f environment.yml
 conda activate accessibility-prediction-from-chipseq
 
 # 3. Change directory into script
-cd ./script
+cd ./scripts
 ```
 > Execution of scripts in ~/accessibility-prediction-from-chipseq/scripts/ directory is necessary for proper execution.
 
