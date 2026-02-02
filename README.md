@@ -76,7 +76,7 @@ Below is an outline of the pipeline which takes in an ENCODE formatted TSV file,
 # For this demo, a tsv with the following filters from ENCODE was downloaded:
 # biosample=GM12878, Output Type=IDR thresholded peaks, File format=bed, Assay Title=TF ChIP-seq, Status=Released, Genome Assembly=GRCh38
 
-python FRiP_filter.py -i "INPUT_ENCODE_TSV_PATH" -t "CHIP-SEQ_TYPE"
+python FRiP_filter.py -i "INPUT_ENCODE_TSV_PATH" 
 ```
 
 ### To reset the ENCODE Metadata & BED download directory
