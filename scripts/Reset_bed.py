@@ -1,4 +1,3 @@
-#TODO: resets downloaded bed files (deletes them)
 
 import os
 
