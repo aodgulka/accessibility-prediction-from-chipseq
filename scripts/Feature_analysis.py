@@ -1,8 +1,3 @@
-#TODO: Clean up interim files and add comments
-#TODO: Deal iwth edge cases (incorrect column names, missing columns, etc.)
-#TODO: Add comments that specify the equations used for feature importance calculations in sklearn
-#TODO: add arguments where the user can specify which are the target columns for ML training
-#TODO: add arguments that specify an output directory for files and plots
 
 #importing libraries
 import pandas as pd
