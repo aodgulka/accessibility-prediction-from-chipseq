@@ -1,4 +1,4 @@
-# manuscript
+# accessibility-prediction-from-chipseq
 
 ## Table of Contents
 - [Overview](#Overview)
@@ -21,10 +21,10 @@ The ChIP-seq BED files downloaded from ENCODE are filtered for the highest Fract
 To install, clone this repository:
 ```bash
 # 1. Clone the github repo
-git clone https://github.com/alankang25/manuscript.git
+git clone https://github.com/aodgulka/accessibility-prediction-from-chipseq.git
 
 # 2. Set current directory to repo
-cd ./manuscript
+cd ./accessibility-prediction-from-chipseq
 ```
 
 This pipeline uses a conda environment to manage dependencies. To install with Conda:
@@ -33,12 +33,12 @@ This pipeline uses a conda environment to manage dependencies. To install with C
 conda env create -f environment.yml
 
 # 2. Activate new environment
-conda activate manuscript
+conda activate accessibility-prediction-from-chipseq
 
 # 3. Change directory into script
 cd ./script
 ```
-> Execution of scripts in ~/manuscript/scripts/ directory is necessary for proper execution.
+> Execution of scripts in ~/accessibility-prediction-from-chipseq/scripts/ directory is necessary for proper execution.
 
 ## Inputs
 ### There are two main files needed as input for this pipeline:
@@ -127,9 +127,9 @@ the default number of threads is set to 1.
 ### The following diagram shows the directory paths of generated plots & files: 
 ```bash
 
-# Under manuscript, two subdirectories (scripts and data) exist:
+# Under accessibility-prediction-from-chipseq, two subdirectories (scripts and data) exist:
 
-manuscript/
+accessibility-prediction-from-chipseq/
 ├── scripts/
 │   └── # python scripts FRiP_filter.py, Feature_analysis.py, and Reset_bed.py. These files should not be altered.
 └── data/
